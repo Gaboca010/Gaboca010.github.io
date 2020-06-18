@@ -1,5 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-h1{color:red;}
-p{color:grey;
-font-size: 24px;
+@font-face{
+    font-family: "SajatFont";
+    src: url("fonts/BalsamiqSans/BalsamiqSans-Regular.ttf");
+    font-weight: 500;
 }
+
+html{
+    font-family: SajatFont, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+   /* background-image: url("../img/türkiz háttérnek való.png") ;
+    background-position: left center;
+    background-repeat: no-repeat; */
+    /* background: url("../img/türkiz háttérnek való.png") no-repeat; */
+}
+
+h1{
+    color:rgb(75, 66, 207);
+     }
+
+
+
+ #bioHeader{
+    color: brown;
+ }
+
+ #skillsHeader{
+    color: rgb(37, 201, 151);
+ }
+
+
+.content{
+    color:grey;
+    font-size: 24px;
+    margin: 10px 20px 0;
+    border-top: solid 2px rgb(116, 56, 56);
+    padding: 20px 0 0 0;
+    max-width: 75%;
+
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-div {
+    background-color: lightblue;
+    position: relative;
+}
+
+.light{
+    background-color: aliceblue;
+}
+
+
+
+/* #img1{
+  position: absolute;
+  top:40px;
+  left: 30px; */
+}
+
+#colorDiv{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0,0,255,0.2);
+    position: fixed;
+    top:30px;
+}
+
+.akcio h2 {
+    color: red;
+}
+div.akcio {
+    width: 80%;
+    height: 150px;
+    background-color: snow;
+    position: relative;
+    box-shadow: 3px 3px 2 px saddlebrown;
+}
+
+div.akcio img {
+       position: absolute;
+    right:10px;
+    left 10px;
+    width: 14.4%;
+    margin: 0.8%;
+    box-shadow: 3px 3px 5px rgb(11, 12, 71);
+}
+
+
