@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Orders</title>
 </head>
+
 <body>
     <div>
         <a href="/menu.html">Étlap</a>
@@ -14,8 +16,57 @@
         <a target="blank" href="/contact.html">Elérhetőség</a>
         <a href="/about.html">Rólunk</a>
     </div>
-    
-<h1>Rendelés</h1>
 
+    <h1>Rendelés</h1>
+
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                 <div>
+                <label for="name">Név: *</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+                <label for="email">Email cím: *</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+                <label for="address">Cím: *</label>
+                <input id="address" name="address" type="text" required>
+            </div>
+            <div>
+                <label for="comment">Megjegyzés: </label>
+                <textarea id="comment" name="comment"> </textarea>
+            </div>
+            </fieldset>
+           
+<fieldset>
+    <legend>Termék adatai</legend>
+            <span>Extra feltét:</span>
+<div>
+    <input checked id="nothing" name="extra" type="radio" value="0">
+    <label for="nothing">Nem kérek</label>
+</div>
+<div>
+    <input id="cheese" name="extra" type="radio" value="300">
+    <label for="cheese">Sajt</label>
+</div><div>
+    <input id="double-cheese" name="extra" type="radio" value="600">
+    <label for="double-cheese">Duplasajt</label>
+</div><div>
+    <input id="double-meat" name="extra" type="radio" value="1000">
+    <label for="double-meat">Dupla húspogácsa</label>
+</div>
+
+<div>
+    <label for="sauce">Szósz</label>
+
+</div>
+</fieldset>
+
+        </form>
+    </div>
 </body>
+
 </html>

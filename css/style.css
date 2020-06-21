@@ -59,8 +59,8 @@ h1{
 /* #img1{
   position: absolute;
   top:40px;
-  left: 30px; */
-}
+  left: 30px; 
+} */
 
 #colorDiv{
     display: inline-block;
@@ -73,20 +73,23 @@ h1{
 
 .akcio h2 {
     color: red;
+    
 }
 div.akcio {
     width: 80%;
     height: 150px;
-    background-color: snow;
+    background-color:wheat;
+    border-radius: 10px;;
     position: relative;
     box-shadow: 3px 3px 2 px saddlebrown;
 }
 
 div.akcio img {
-       position: absolute;
+    position: absolute;
     right:10px;
-    left 10px;
-    width: 14.4%;
+    top: 10px;
+    width: 22%;
+    height: 80%;
     margin: 0.8%;
     box-shadow: 3px 3px 5px rgb(11, 12, 71);
 }
